@@ -28,6 +28,7 @@ Sends a NoSQL injection payload:
 " || (this.username.match("^HTB{X.*")) || ""=="  
 ```
 
+
 If "X" is correct, the server responds with "Logged in as" or "Nothing to see here".
 If "X" is incorrect, it moves to the next character.
 Loops through a-z, A-Z, 0-9 until it reconstructs the full username.
