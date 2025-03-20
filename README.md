@@ -2,7 +2,7 @@
 
 A Python script that automates blind NoSQL injection to extract usernames from vulnerable web applications. The script exploits Server-Side JavaScript Injection (SSJI) via the $where clause in MongoDB queries.
 
-🚀 Features
+ Features
 Automated username extraction using character-by-character brute force.
 Uses NoSQL injection (this.username.match()) to determine valid username characters.
 Supports a-z, A-Z, 0-9 (modifiable charset).
